@@ -1,0 +1,154 @@
+body{
+  font-family: 'Montserrat-thin', sans-serif;
+
+
+}
+
+h2{
+  font-family: 'Montserrat-Extra-Bold', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+font-size: 1.5rem;
+}
+p{
+  color: grey;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+#title{
+  background-color: #ff4c68;
+   color:white;
+
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+#features{
+
+padding: 10% 15% ;
+background-color: #fff;
+position: relative;
+z-index: 1
+}
+.pricing-colommn{
+padding:3% 2% ;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+/* Navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link
+{
+  font-family: 'Montserrat-light', sans-serif;
+  /* font-weight: bold; */
+  font-size: 1rem;
+}
+/*  download button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* Title images */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+right: 30%;
+
+}
+
+.feature-box{
+  text-align: center;
+
+}
+.cen{
+  color: #ef8172;
+  padding-bottom: 20px;;
+}
+.cen:hover{
+  color:#ff4c68;
+}
+#testimonials{
+  text-align:center;
+  background-color:#ef8172;
+  color: white;
+
+}
+.testimonial-image
+{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color:#ef8172;
+text-align: center;
+padding-bottom: 5%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px ;
+}
+.carousel-item {
+
+  padding:7% 15%;
+
+}
+@media (max-width:1000px)
+ {
+   #title{
+     text-align: center;
+   }
+  .title-image{
+
+     position: static;
+     transform:rotate(0);
+   }
+
+}
+.ending{
+  background-color: #ff4c68;
+  padding: 7% 7% 5%;
+text-align: center;
+
+color: #fff;
+
+}
+.end{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact{
+  padding: 7%;
+  text-align: center;
+
+}
+.Contact{
+  margin:5px;
+  padding: 10px;
+}
+.grey{
+  color: gray;
+  padding: 10px;
+}
